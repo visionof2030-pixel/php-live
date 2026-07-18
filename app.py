@@ -4,8 +4,8 @@ import re
 
 app = Flask(__name__)
 
-SOURCE_URL = "http://mavpro.xyz:8080/live/8454745cdsdw/8455144xsfdd/405509.M3U8"
-BASE_URL = "http://mavpro.xyz:8080/live/8454745cdsdw/8455144xsfdd/"
+SOURCE_URL = "https://mavpro.xyz:8080/live/8454745cdsdw/8455144xsfdd/405509.M3U8"
+BASE_URL = "https://mavpro.xyz:8080/live/8454745cdsdw/8455144xsfdd/"
 
 # ⬇️⬇️⬇️ هنا نضيف الـ Headers ⬇️⬇️⬇️
 HEADERS = {
