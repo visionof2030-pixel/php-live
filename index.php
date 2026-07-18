@@ -6,7 +6,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 // رابط البث
-$url = "https://mavpro.xyz:8080/live/8454745cdsdw/8455144xsfdd/405509.M3U8";
+$url = "http://mavpro.xyz:8080/live/8454745cdsdw/8455144xsfdd/405509.M3U8";
 
 // إنشاء اتصال cURL
 $ch = curl_init($url);
